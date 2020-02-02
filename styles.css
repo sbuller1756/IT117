@@ -1,0 +1,105 @@
+@charset "utf-8";
+body {
+background-color: #990000;
+font-family: Arial, Tahoma, sans-serif;
+color: #000000;
+}
+
+h1 {
+color: #000000;
+}
+
+header {
+background-color: #d6ecef;
+color: #ffffff;
+text-align: center;
+padding: 5px;
+width: 80%;
+margin-left: 10%;
+}
+
+
+main {
+width: 80%;
+background-color: #d6ecef;
+float: left;
+padding: 5px;
+margin-left: 10%;
+rowcolor: #ffffff;
+}
+
+.mytable {
+border-collapse: collapse;
+background-color: #d3d3d3;
+font-family: Arial;
+width: 50%;
+}
+
+
+
+table, th, td{
+border: 1px solid black;
+}
+
+.mytable th {
+text-align: Center;
+font-weight: Bold;
+}
+
+tbody>:nth-child(5) {
+color:black;
+font-weight:bold;
+font-style:italic;
+background-color: #d3d3d3;#d6ecef}
+
+td {
+text-align: Left;
+}
+
+
+footer {
+clear: both;
+background-color: #d6ecef;
+color: #ffffff;
+text-align: center;
+margin-left: 10%;
+padding: 5px;
+font-size: 12pt;
+width: 80%;
+}
+
+nav {
+color: #000000;
+padding: 5px;
+width: 80%;
+margin-left: 10%;
+font-weight: bold;
+.active {
+  background-color: #FF0000;
+  color: white;
+}}
+
+nav ul {
+list-style: none;
+}
+
+nav ul li {
+float: left;
+padding: 5px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+display: block;
+width: 150px;
+margin-right: 4px;
+color: #ffffff;
+padding: 2px 4px 2px 4px;
+background-color: #990000;
+text-decoration: none
+font-weight: bold;
+}
+
+nav ul li a:hover {
+color: #FF0000;
+background-color: #FFFF00;
+}
