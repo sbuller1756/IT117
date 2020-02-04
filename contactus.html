@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<title>Spicy and Icy - Contact Us</title>
+<style type="text/css">h2{color: #FF0000;font-style: italic;}form{background-color: #add8e6; width: 50%; border-style: solid; border-color: #000000; font-family: Arial;}input[type=text]{background-color: #FFFF00; color: #FF0000; font-weight: bold; font-family: Times New Roman;}input[type=number]{background-color: #FFA500;}input[type=radio]{width: 15%; padding: 5px;}input[type=checkbox]{width: 15%; padding: 5px;}select{border: 3px solid #73AD21; width: 50%;}input[type=submit]{background-color: #FF0000; border-color: #FFFF00;}textarea{background-color: #FFFF00; color: #FF0000; font-weight: bold; font-family: Times New Roman;}</style>
+</head>
+
+<body>
+
+<header><img src="https://sbuller1756.github.io/IT117/images/Logo.jpg" alt="Restaurant logo" width="150" height="150"><h1>Contact Spicy and Icy</h1></header>
+<nav></nav>
+<main><h2>The purpose of this form is to gather feedback from our customers.</h2><form action="" method="Post" autocomplete="On">First Name:<br><input type="text" name="firstname" required><br>Last Name:<br><input type="text" name="lastname" required><br>Email Address:<br><input type="text" name="emailaddress" autocomplete="Off" required><br>Gender:<br><input type="radio" name="gender" value="male">Male<br><input type="radio" name="gender" value="female">Female<br>Favorite food:<br><input type="checkbox" name="food" value="Cajun">Cajun<br><input type="checkbox" name="food" value="Mexican">Mexican<br><input type="checkbox" name"food" value="Chinese">Chinese<br>Select your birth month:<br><select name="months"><option value="january">January</option><option value="february">February</option><option value="march">March</option><option value="april">April</option><option value="may">May</option><option value="june">June</option><option value="july">July</option><option value="august">August</option><option value="september">September</option><option value="october">October</option><option value="november">November</option><option value="december">December</option></select><br>Comments:<br><textarea name="comment" rows="4" cols="50"></textarea><br><input type="submit" value="Submit"><h2>Enter your four-digit passcode, then click OK:</h2><input id="id1" type="number" min="1000" max="9999"><button onclick= "myFunction()">OK</button><p id="passcode"></p><script>function myFunction() {
+var inpObj = document.getElementById("id1");if (inpObj.checkValidity() == false) {document.getElementById("passcode").innerHTML = inpObj.validationMessage;
+} else {document.getElementById("passcode").innerHTML = "Passcode Valid";}}</script></form></main>
+<footer></footer> 
+
+</body>
+
+</html>
