@@ -50,11 +50,7 @@ text-align: Center;
 font-weight: Bold;
 }
 
-tbody>:nth-child(5) {
-color:black;
-font-weight:bold;
-font-style:italic;
-background-color: #d3d3d3;#d6ecef}
+
 
 td {
 text-align: Left;
